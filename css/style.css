@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --bs-tertiary: #797E88;
+    --bs-tertiary: #797e88;
 }
 
 .back-to-top {
@@ -23,25 +23,23 @@
     font-weight: 400 !important;
 }
 
-
 /*** Spinner ***/
 #spinner {
     opacity: 0;
     visibility: hidden;
-    transition: opacity .5s ease-out, visibility 0s linear .5s;
+    transition: opacity 0.5s ease-out, visibility 0s linear 0.5s;
     z-index: 99999;
 }
 
 #spinner.show {
-    transition: opacity .5s ease-out, visibility 0s linear 0s;
+    transition: opacity 0.5s ease-out, visibility 0s linear 0s;
     visibility: visible;
     opacity: 1;
 }
 
-
 /*** Button ***/
 .btn {
-    transition: .5s;
+    transition: 0.5s;
 }
 
 .btn-square {
@@ -69,7 +67,6 @@
     font-weight: normal;
 }
 
-
 /*** Top Bar ***/
 .top-bar {
     height: 90px;
@@ -80,11 +77,10 @@
     letter-spacing: 1px;
 }
 
-
 /*** Nav Bar ***/
 .nav-bar {
     padding: 0 90px;
-    transition: .5s;
+    transition: 0.5s;
 }
 
 .navbar .navbar-nav .nav-link {
@@ -129,17 +125,16 @@
         top: 150%;
         opacity: 0;
         visibility: hidden;
-        transition: .5s;
+        transition: 0.5s;
     }
 
     .navbar .nav-item:hover .dropdown-menu {
         top: 100%;
         visibility: visible;
-        transition: .5s;
+        transition: 0.5s;
         opacity: 1;
     }
 }
-
 
 /*** Header Carousel ***/
 .header-carousel {
@@ -177,7 +172,7 @@
     background-size: cover;
 }
 
-.page-header .breadcrumb-item+.breadcrumb-item::before {
+.page-header .breadcrumb-item + .breadcrumb-item::before {
     color: var(--bs-tertiary);
 }
 
@@ -190,7 +185,6 @@
 .page-header .breadcrumb-item.active {
     color: var(--bs-dark);
 }
-
 
 /*** Video ***/
 .btn-play {
@@ -282,7 +276,6 @@
     opacity: 1;
 }
 
-
 /*** Section Title ***/
 .section-title {
     position: relative;
@@ -322,7 +315,6 @@
     left: 0;
 }
 
-
 /*** About ***/
 .about-img {
     position: relative;
@@ -346,7 +338,6 @@
     right: 0px;
     bottom: 0px;
 }
-
 
 /*** Service ***/
 .service-title {
@@ -374,7 +365,7 @@
     font-size: 14px;
     line-height: 14px;
     text-transform: uppercase;
-    transition: .5s;
+    transition: 0.5s;
 }
 
 .service-item a::after {
@@ -388,15 +379,14 @@
     border-bottom: 2px solid var(--bs-primary);
 }
 
-
 /*** Donation ***/
 .donation-item {
-    box-shadow: 0 0 30px rgba(0, 0, 0, .05);
-    transition: .5s;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
+    transition: 0.5s;
 }
 
 .donation-item:hover {
-    box-shadow: 0 0 30px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
 }
 
 .donation-item .donation-progress {
@@ -408,7 +398,6 @@
     overflow: visible;
     transition: 3s;
 }
-
 
 /*** Banner ***/
 .banner .banner-inner {
@@ -439,17 +428,15 @@
     border-left: 150px solid transparent;
 }
 
-
 /*** Event ***/
 .event-item {
-    box-shadow: 0 0 30px rgba(0, 0, 0, .05);
-    transition: .5s;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
+    transition: 0.5s;
 }
 
 .event-item:hover {
-    box-shadow: 0 0 30px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
 }
-
 
 /*** Donate ***/
 .donate .donate-text {
@@ -482,7 +469,7 @@
 
 .donate .donate-form .form-control {
     border: none;
-    background: rgba(255, 255, 255, .5);
+    background: rgba(255, 255, 255, 0.5);
 }
 
 .donate .donate-form .btn-group {
@@ -498,31 +485,27 @@
     justify-content: center;
     border: none;
     color: var(--bs-tertiary);
-    background: rgba(255, 255, 255, .5);
+    background: rgba(255, 255, 255, 0.5);
 }
 
-.donate .donate-form .btn-group .btn-check:checked+.btn {
+.donate .donate-form .btn-group .btn-check:checked + .btn {
     border: none;
     background: var(--bs-white);
 }
 
-
-
 /*** Team ***/
 .team-item {
-    box-shadow: 0 0 30px rgba(0, 0, 0, .05);
-    transition: .5s;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
+    transition: 0.5s;
 }
 
 .team-item:hover {
-    box-shadow: 0 0 30px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
 }
 
 .team-item .team-detail span {
     letter-spacing: 2px;
 }
-
-
 
 /*** Testimonial ***/
 .testimonial-title {
@@ -571,7 +554,7 @@
     font-size: 18px;
     color: var(--bs-white);
     background: var(--bs-secondary);
-    transition: .5s;
+    transition: 0.5s;
 }
 
 .testimonial-carousel .owl-prev:hover,
@@ -586,12 +569,11 @@
     }
 }
 
-
-
 /*** Footer ***/
 .footer {
     color: var(--bs-tertiary);
-    background: linear-gradient(rgba(5, 19, 17, .95), rgba(5, 19, 17, .95)), url(../img/bg-footer.jpg) center center no-repeat;
+    background: linear-gradient(rgba(5, 19, 17, 0.95), rgba(5, 19, 17, 0.95)),
+        url(../img/bg-footer.jpg) center center no-repeat;
     background-size: cover;
 }
 
@@ -603,7 +585,7 @@
     color: var(--bs-tertiary);
     font-weight: normal;
     text-transform: capitalize;
-    transition: .3s;
+    transition: 0.3s;
 }
 
 .footer .btn.btn-link::before {
@@ -621,8 +603,9 @@
 }
 
 .footer .copyright {
-    border-top: 1px solid rgba(255, 255, 255, .1);
-}@media (max-width: 700px) {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+@media (max-width: 700px) {
     .cookie-wrapper {
         width: 100%;
     }
@@ -652,12 +635,12 @@
     display: none;
 }
 header i {
-    color: #ffac00;
+    color: #06b297;
     font-size: 32px;
     text-align: center;
 }
 header h2 {
-    color: #ffac00;
+    color: #06b297;
     font-weight: 500;
     text-align: center;
 }
@@ -665,7 +648,7 @@ header h2 {
     text-align: center;
 }
 .data p a {
-    color: #ffac00;
+    color: #06b297;
     text-decoration: none;
     text-align: center !important;
 }
@@ -677,10 +660,10 @@ header h2 {
     text-align: center;
 }
 .buttons .cookie-button {
-    border: 2px solid #ffac00;
+    border: 2px solid #06b297;
     color: #fff;
     padding: 8px 0;
-    background: #ffac00;
+    background: #06b297;
     cursor: pointer;
     width: calc(100% / 2 - 10px);
     transition: all 0.5s ease;
@@ -689,14 +672,14 @@ header h2 {
 }
 .buttons #acceptBtn:hover {
     background-color: transparent;
-    color: #ffac00;
+    color: #06b297;
 }
 #declineBtn {
     background-color: #fff;
-    color: #ffac00;
+    color: #06b297;
 }
 #declineBtn:hover {
-    background-color: #ffac00;
+    background-color: #06b297;
     color: #fff;
 }
 /* Footer Style */
